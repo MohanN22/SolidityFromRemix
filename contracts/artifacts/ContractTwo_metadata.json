@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "callAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallFunctionContracttoContract.sol": "ContractTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallFunctionContracttoContract.sol": {
+			"keccak256": "0x8481ec57286ec8866d1e98fc1e33c72fe51fe398fe13d1014fb590458d6b09b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94264b5c7abe784897fa963221749facd176f500379a2d145ce16f9daf022d04",
+				"dweb:/ipfs/QmTPkFZ7yYCcf2St8PTu5cqFVinjyWFRNV5iZ9hP2PNV9Q"
+			]
+		}
+	},
+	"version": 1
+}

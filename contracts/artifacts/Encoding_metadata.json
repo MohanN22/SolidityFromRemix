@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AbiEncodingDecoding.sol": "Encoding"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AbiEncodingDecoding.sol": {
+			"keccak256": "0xd7b744e9c2ff9b3b0e5e867fc90dcc57ae25416b4ed24b0f17d8495ea6767fcd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e38d969ce171c51c4965f8eeb2f3c0d2ef822ab6bf670efd1d4852d837d4662f",
+				"dweb:/ipfs/QmTXK8FetxNqeXcR6vzahP1QfmqfL1UYYu7o7Hi4vFY4k1"
+			]
+		}
+	},
+	"version": 1
+}
